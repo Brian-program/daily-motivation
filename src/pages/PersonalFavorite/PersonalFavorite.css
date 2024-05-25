@@ -1,0 +1,72 @@
+/* PersonalFavorites.css */
+.personal-favorites-container {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .personal-favorites-container h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .personal-favorites-container ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .personal-favorites-container li {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .personal-favorites-container li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .personal-favorites-container blockquote {
+    font-style: italic;
+    font-size: 20px;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .personal-favorites-container blockquote:before {
+    content: open-quote;
+    font-size: 40px;
+    color: #ccc;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+  }
+  
+  .personal-favorites-container blockquote:after {
+    content: close-quote;
+    font-size: 40px;
+    color: #ccc;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+  }
+  

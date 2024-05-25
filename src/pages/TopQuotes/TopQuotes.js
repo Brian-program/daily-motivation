@@ -1,10 +1,9 @@
 import React from 'react';
+import './TopQuotes.css'; // Import your CSS file if needed
 
 function TopQuotes() {
   return (
-    <div>
-      <h2>TopQuotes</h2>
-      <p>Welcome to the TopQuotes!</p>
+    <div className="top-quotes-container" style={{ backgroundImage: 'url(/404.jpg)' }}>
     </div>
   );
 }
