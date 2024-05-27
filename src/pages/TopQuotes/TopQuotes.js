@@ -1,5 +1,5 @@
 import React from 'react';
-import './TopQuotes.css'; // Import your CSS file if needed
+import './TopQuotes.css';
 
 function TopQuotes() {
   return (

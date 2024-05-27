@@ -32,10 +32,14 @@
   margin-top: 20px;
 }
 
-.generate-button:hover {
+.generate-button:hover:not(.spinning) {
   background-color: #00356e;
   box-shadow: 0 6px 15px rgba(0, 123, 255, 0.7); /* Enhance the shadow on hover */
-  animation: spin 0.5s ease-in-out; /* Spin once smoothly on hover */
+}
+
+.generate-button.spinning {
+  pointer-events: none;
+  animation: spin 0.5s ease-in-out; /* Spin once smoothly */
 }
 
 .quote-error {

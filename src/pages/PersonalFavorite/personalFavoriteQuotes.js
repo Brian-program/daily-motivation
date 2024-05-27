@@ -1,8 +1,9 @@
 // personalFavoriteQuotes.js
 const personalFavoriteQuotes = [
-  "In the end, we only regret the chances we didn't take.",
-  "Believe you can and you're halfway there.",
-  "It's You against You. Only You can make yourself better."
+  "IT'S NOT A BUG, IT'S A FEATURE",
+  "WE WILL ONLY REGRET THE CHANCES WE DON'T TAKE",
+  "BELIEVE YOU CAN AND YOU ARE HALF WAY THERE",
+  "IT'S YOU AGAINST YOU. ONLY YOU MAKE YOURSELF BETTER"
   // Add more personal favorite quotes
 ];
 

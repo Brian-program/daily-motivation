@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './QuoteGenerator.css'; // Import your CSS file
+import './QuoteGenerator.css';
 
 function QuoteGenerator() {
   const [quote, setQuote] = useState('');
@@ -10,6 +10,12 @@ function QuoteGenerator() {
   }, []);
 
   const fetchRandomQuote = async () => {
+    const button = document.querySelector('.generate-button');
+    button.classList.add('spinning');
+    setTimeout(() => {
+      button.classList.remove('spinning');
+    }, 500); // Match duration with CSS animation 
+
     try {
       const response = await fetch('https://api.quotable.io/random');
       if (!response.ok) {

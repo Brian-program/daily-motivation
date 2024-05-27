@@ -2,29 +2,29 @@
 .top-quotes-container {
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Ensure the container covers the entire viewport height */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #ffffff; /* Text color to contrast against the background image */
-  padding: 0 20px; /* Add some padding to prevent text from touching the edges */
+  color: #ffffff;
+  padding: 0 20px;
 }
 
 .top-quotes-container h2 {
   font-size: 48px;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
-  font-family: 'Helvetica Neue', Arial, sans-serif; /* Use a clean, modern font */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .top-quotes-container p {
   font-size: 24px;
-  color: #f0f0f0; /* Slightly lighter text color for the paragraph */
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add shadow for better readability */
-  font-family: 'Georgia', serif; /* Use a different font for variety */
-  max-width: 800px; /* Constrain the paragraph width for better readability */
-  line-height: 1.5; /* Improve text readability with line height */
+  color: #f0f0f0; 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+  font-family: 'Georgia', serif; 
+  max-width: 800px; 
+  line-height: 1.5; 
 }
 
